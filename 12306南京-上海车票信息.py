@@ -34,7 +34,7 @@ for j in ck1:
         driver.switch_to.window(j)
 driver.find_element_by_xpath("//a[@id='qd_closeDefaultWarningWindowDialog_id']").click()
 time.sleep(4)
-driver.get_screenshot_as_file(r"D:\软件测试\code\yupiao1.png")
+driver.get_screenshot_as_file(r"D:code\yupiao1.png")
 time.sleep(3)
 driver.quit()
 
