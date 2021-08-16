@@ -2,7 +2,7 @@ import unittest
 from selenium import webdriver
 import time
 from selenium.webdriver.support.select import Select
-p=['13051667078','13103063559','17602163699','18511666968','13581685601','18335830533']
+p=['1305****078','1310****559','176****3699','18511****68','1358****601','18****30533']
 n=['张女士','王女士','王女士','刘先生','张女士','常先生']
 class ZhaoShang(unittest.TestCase):
     def setUp(self):
