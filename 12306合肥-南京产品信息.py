@@ -35,7 +35,7 @@ time.sleep(3)
 # time.sleep(3)
 driver.find_element_by_xpath("//a[@id='search_one']").click()
 time.sleep(3)
-driver.get_screenshot_as_file(r"D:\软件测试\code\piao.png")
+driver.get_screenshot_as_file(r"D:code\piao.png")
 driver.quit()
 
 
